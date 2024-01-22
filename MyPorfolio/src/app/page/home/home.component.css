@@ -4,7 +4,6 @@ position: relative;
 background-color: black;
 overflow: hidden;
 opacity: 0.92;
-
 }
 .fondo1{
 position:absolute;
@@ -160,36 +159,4 @@ flex-wrap: wrap;
 padding: 20px;
 margin-right: 25px; 
 margin-top: 20px;
-}
-
-.section4{
-display: flex;
-justify-content: center;
-align-items: center;
-padding-left: 100px;
-padding-top: 80px;
-}
-.section4a{
-/* border: 1px solid red; */
-height: 30vh;
-width: 33vw;
-text-align: center;
-}
-.esfera1{
-position:absolute;
-top: 74%;
-left: 14%; 
-opacity: 0.4;
-}
-.esfera2{
-position:absolute;
-top: 65%;
-left: 29%; 
-opacity: 0.5; 
-}
-.esfera3{
-position:absolute;
-top: 68.4%;
-right: 15%;
-opacity: 0.4;  
 }

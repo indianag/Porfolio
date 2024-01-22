@@ -1,0 +1,52 @@
+section{
+    position: relative;
+    background-color: black;
+    overflow: hidden;
+    opacity: 0.92;
+    border: 1px solid yellow;
+    height: 100vh;
+    color: white;
+    font-family: 'Roboto', sans-serif;  
+    }
+    section h2{
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    line-height: 45px;
+    }
+    section p{
+    letter-spacing: 0.1em;
+    line-height: 25px;
+    }
+.section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-top: 80px;
+    }
+    .section4a{
+
+    height: 30vh;
+    width: 33vw;
+    text-align: center;
+    }
+    .esfera1{
+    position:absolute;
+    top: 74%;
+    left: 14%; 
+    opacity: 0.4;
+    }
+    .esfera2{
+    position:absolute;
+    top: 25%;
+    left: 29%; 
+    opacity: 0.5; 
+    }
+    .esfera3{
+    position:absolute;
+    top: 40%;
+    right: 15%;
+    opacity: 0.4;  
+    }
+    
