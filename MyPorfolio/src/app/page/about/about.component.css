@@ -1,0 +1,46 @@
+.section2{
+/* border: 1px solid #ff00ea; */
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+color: white;
+}
+.foto{
+position: absolute;
+top: 24%;
+right: 35%;
+height: 50%;
+width: 28%;
+z-index: -2; 
+}
+.cuadro1{
+background-color: rgb(0, 0, 0);
+position: absolute;
+top: 40%;
+left: 0%;
+height: 40%;
+width: 44%;
+z-index: -1; 
+}
+.cuadro2{
+background-color: rgb(0, 0, 0);
+position: absolute;
+top: 40%;
+right: 0%;
+height: 40%;
+width: 44%;
+z-index: -1; 
+}
+.rombo2{
+position:absolute;
+height: 8rem;
+top: 15%;
+right: 31%;
+}
+.cubo1{
+position:absolute;
+height: 8rem;
+top: 69%;
+left: 20%;
+opacity: 0.4; 
+}
