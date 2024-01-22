@@ -1,0 +1,28 @@
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    }
+    .contenedor-texto3{
+    /* border: 1px solid red; */
+    height: 30vh;
+    width: 55vw;
+    text-align: center;
+    
+    }
+    .iconos{
+    /* border: 1px solid red; */
+    height: 30vh;
+    width: 55vw;
+    text-align: center;
+    }
+    .icono{
+    height:12vh;
+    width: 6vw;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-right: 25px; 
+    margin-top: 20px;
+    }
