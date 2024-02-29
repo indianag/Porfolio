@@ -12,7 +12,7 @@ z-index: 10;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
-.header-nav button{
+.header-nav a{
 display: block;
 align-items: center;
 padding: 8px 22px;
@@ -25,9 +25,10 @@ color: #f0f8ff;
 cursor: pointer;
 transition: all 0.3s ease-in-out;
 list-style: none;
+z-index: 3;
 
 }
-.header-nav button:hover {
+.header-nav a:hover {
 background-color: #f0f8ff; 
 color: black; 
 border-color: black;

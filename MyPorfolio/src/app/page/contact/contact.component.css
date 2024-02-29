@@ -5,17 +5,36 @@ align-items: center;
 color: white;
 
 }
-
-img{
-    width: 40%;
-    height: 50%;
-}
 .contenedor-texto5{
-    width: 40%;
+    width: 45%;
     height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    
 }
+form{
+    width: 630px;
+    height: 350px;
+    /* border: 1px solid red ; */
+    padding-block: 1rem;
+    margin-top: 100px;
+}
+
+input{
+    width: 300px;
+    height: 56px;
+    border-radius: 15px;
+    background-color: #18fffb;
+    padding-inline: 1rem;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+   
+}
+.descripcion{
+    width: 610px;
+    height: 100px;
+}
+

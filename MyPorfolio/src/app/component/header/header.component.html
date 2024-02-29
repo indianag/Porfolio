@@ -3,13 +3,13 @@
         <img src="../../../assets/img/marca.personal.indiana.png" alt="">
     </div>
     <ul class="header-nav">
-        <button routerLink="/">Contacto</button>
+        <li><a class="nav-link" (click)="navigateToSection('section5')">Contacto</a></li>
     </ul>
     <div class="barra-nav">
-        <a routerLink="home.section1"  class="active">01</a>
-        <a routerLink="/" class="active">02</a>
-        <a routerLink="/" class="active">03</a>
-        <a routerLink="/" class="active">04</a>
-        <a routerLink="/" class="active">05</a>
+        <a class="active" (click)="navigateToSection('section1')">01</a>
+        <a class="active" (click)="navigateToSection('section2')">02</a>
+        <a class="active" (click)="navigateToSection('section3')">03</a>
+        <a class="active" (click)="navigateToSection('section4')">04</a>
+        <a class="active" (click)="navigateToSection('section5')">05</a>
     </div>
 </header>
