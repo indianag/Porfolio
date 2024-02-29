@@ -39,8 +39,8 @@ z-index: -1;
 }
 .fondo5{
 position:absolute;
-height: 12rem;
-top: 98%;
+height: 8rem;
+top: 97%;
 right: 85%;
 filter: blur(2px);
 z-index: -1; 
