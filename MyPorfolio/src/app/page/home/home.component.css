@@ -1,49 +1,55 @@
 .inicio{
 position: relative;
 /* border: 1px solid #ff0000; */
-background-color: black;
+/* background-color: black; */
 overflow: hidden;
-opacity: 0.92;
+/* opacity: 0.92; */
 }
 .fondo1{
 position:absolute;
 height: 12rem;
 top: 18%;
 right: 85%;
-filter: blur(2px);
-z-index: -1; 
+filter: blur(3px);
+z-index: 1; 
+opacity: 0.2;
+
 }
 .fondo2{
 position:absolute;
 height: 12rem;
 top: 38%;
 right: -10%;
-filter: blur(2px);
-z-index: -1; 
+filter: blur(3px);
+z-index: 1; 
+opacity: 0.2;
 }
 .fondo3{
 position:absolute;
 height: 12rem;
 top: 58%;
 right: 85%;
-filter: blur(2px);
-z-index: -1; 
+filter: blur(3px);
+z-index: 1; 
+opacity: 0.2;
 }
 .fondo4{
 position:absolute;
 height: 12rem;
 top: 78%;
 right: -10%;
-filter: blur(2px);
-z-index: -1; 
+filter: blur(3px);
+z-index: 1; 
+opacity: 0.2;
 }
 .fondo5{
 position:absolute;
 height: 8rem;
 top: 97%;
 right: 85%;
-filter: blur(2px);
-z-index: -1; 
+filter: blur(3px);
+z-index: 1; 
+opacity: 0.2;
 }
 .section1{
 display: flex;

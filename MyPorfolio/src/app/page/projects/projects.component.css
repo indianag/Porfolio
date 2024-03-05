@@ -1,0 +1,24 @@
+.section4a{
+
+    height: 30vh;
+    width: 33vw;
+    text-align: center;
+    }
+    .esfera1{
+    position:absolute;
+    top: 74%;
+    left: 14%; 
+    opacity: 0.4;
+    }
+    .esfera2{
+    position:absolute;
+    top: 25%;
+    left: 29%; 
+    opacity: 0.5; 
+    }
+    .esfera3{
+    position:absolute;
+    top: 40%;
+    right: 15%;
+    opacity: 0.4;  
+    }
