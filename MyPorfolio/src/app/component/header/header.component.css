@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "amsterdam four";
+    src: url('../../../assets/fuentes/amsterdam-four-ttf.ttf');
+}
+.firma{
+    color: white;
+    font-family: "amsterdam four";
+    font-size: 50px;
+}
+
 header {
 width: 100vw;
 height: 10rem;
@@ -67,3 +77,4 @@ a{
 .barra-nav a.active:hover {
     border-right: 4px solid white;
 }
+

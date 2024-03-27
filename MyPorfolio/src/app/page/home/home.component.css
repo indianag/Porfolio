@@ -1,25 +1,61 @@
-.inicio{
+body{
+height: 100%;
+width: 100%;
+margin: 0;
+}
+.contenedor::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* .inicio{
 position: relative;
-/* border: 1px solid #ff0000; */
-/* background-color: black; */
+height: 100%;
 overflow: hidden;
-/* opacity: 0.92; */
+} */
+.contenedor{
+height: 100vh;
+width: 100vw;
+scroll-snap-type: y mandatory;
+overflow-y: scroll;
+
+}
+section{
+width: 100vw;
+height: 100vh;
+scroll-snap-align: start;
+
+}
+
+
+
+
+
+
+
+
+
+
+.section1{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+color: white;
 }
 .fondo1{
 position:absolute;
 height: 12rem;
-top: 18%;
+top: -10%;
 right: 85%;
 filter: blur(3px);
 z-index: 1; 
 opacity: 0.2;
-
 }
 .fondo2{
 position:absolute;
 height: 12rem;
-top: 38%;
-right: -10%;
+top: -10%;
+right: -8%;
 filter: blur(3px);
 z-index: 1; 
 opacity: 0.2;
@@ -27,7 +63,7 @@ opacity: 0.2;
 .fondo3{
 position:absolute;
 height: 12rem;
-top: 58%;
+top: -10%;
 right: 85%;
 filter: blur(3px);
 z-index: 1; 
@@ -36,7 +72,7 @@ opacity: 0.2;
 .fondo4{
 position:absolute;
 height: 12rem;
-top: 78%;
+top: -10%;
 right: -10%;
 filter: blur(3px);
 z-index: 1; 
@@ -45,18 +81,13 @@ opacity: 0.2;
 .fondo5{
 position:absolute;
 height: 8rem;
-top: 97%;
+top: 86%;
 right: 85%;
 filter: blur(3px);
 z-index: 1; 
 opacity: 0.2;
 }
-.section1{
-display: flex;
-justify-content: space-evenly;
-align-items: center;
-color: white;
-}
+
 .contenedor-texto1{
 width: 35rem;
 margin-left: 200px;
@@ -73,7 +104,7 @@ top: 35%;
 right: 0%;
 height: 30vh;
 width: 57vw;
-background-image: url('../../../assets/img/textura.puntitos.png');
+background-image: url('../../../assets/img/puntitos.png');
 background-repeat: no-repeat;
 background-size: 100% 100%;
 z-index: -1; 
